@@ -1,0 +1,2 @@
+gcc -I ../libwebsockets/lib/ -I ../libwebsockets/build/ ws-client.c -o ws-client \
+-L ../libwebsockets/build/lib -l websockets -l z -l pulse-simple -l pulse -l pthread
